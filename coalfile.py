@@ -10,6 +10,6 @@ class EasyloggingppFile(CoalFile):
     def build(self):
         pass
     def package(self):
-        cp('build/src', 'include')
+        cp('src/src', 'include')
     def info(self, generator):
         generator.add_include_dir('include/')
